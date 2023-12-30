@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>topic</title>
+</head>
+<body>
+    <center>
+        <h1>topic data</h1>
+        <form method="POST">
+            <fieldset name="topic">
+                        {% csrf_token %}
+            <label for="tn">topic_name</label>
+            <input type="text" id="tn" name="tn"><br><br>
+            <center><input type="submit" value='create'</center>
+            </fieldset>
+        </form>
+    </center>
+    
+</body>
+</html>

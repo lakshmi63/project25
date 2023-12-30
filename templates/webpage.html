@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+</head>
+<body>
+    <center>
+        <h1>webpage data</h1>
+        <form method="POST">
+            <fieldset name="webpage">
+            {% csrf_token %}
+            <label for="tn">topic_name</label>
+            <input type="text" id="tn" name="tn"><br><br>
+            <label for="n">name</label>
+            <input type="text" id="n" name="n"><br><br>
+            <label for="u">url</label>
+            <input type="text" id="u" name="u"><br><br>
+            <label for="em">email</label>
+            <input type="text" id="em" name="em"><br><br>
+            <center><input type="submit" value='create'</center>
+            </fieldset>
+            
+        </form>
+    </center>
+</body>
+</html>
